@@ -12,7 +12,7 @@
             <div id="outerHeader">
                 <div id="header">
                     <div class="logo">
-                        <?=$this->image('/assets/web/images/logo.png')?>
+                        <?=$this->link('/', $this->image('/assets/web/images/logo.png'))?>
                     </div>
                     <div id="mainMenu">
                         <?=$this->component($this->boxes['mainMenu']);?>
