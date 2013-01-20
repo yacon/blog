@@ -5,7 +5,7 @@ class Contact_Component extends Kwc_Form_Component
     {
         $ret = parent::getSettings();
         $ret['componentName'] = trl('Contactform');
-        $ret['placeholder']['submitButton'] = trlStatic('Submit');
+        $ret['placeholder']['submitButton'] = trlStatic('send');
         return $ret;
     }
 }

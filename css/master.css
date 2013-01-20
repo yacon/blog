@@ -4,14 +4,28 @@
 
 .webStandard p { line-height: 18px; color: var(typo); margin-bottom: 10px; }
 
-.webStandard h1 { font-size: 25px; margin-bottom: 10px; color: var(mainColor); } /* Überschrift 1 */
-.webStandard h2 { font-size: 20px; margin-bottom: 10px; color: var(mainColor); } /* Überschrift 2 */
-.webStandard h3 { font-size: 12px; margin-bottom: 5px; } /* Überschrift 3 */
+.webStandard h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: var(light);
+    background: var(dark);
+    padding: 5px;
+    display: inline-block;
 
-.webStandard a { text-decoration: none; color: var(mainColor); outline: none; }
-.webStandard a:hover { text-decoration: none; color: var(secColor); }
+}
+.webStandard h2
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(dark);
+    padding: 5px;
+    display: inline-block;
+}
+
+.webStandard a { text-decoration: underline; color: var(dark); outline: none; }
+.webStandard a:hover { text-decoration: underline; color: var(dark); }
 .webStandard a:link { text-decoration: none; }
 
 .webStandard ol,
 .webStandard ul { margin-bottom: 10px; margin-left: 20px; }
-.webStandard li { list-style-type: square; margin-bottom: 5px; line-height: 18px; color: var(typo); }
+.webStandard li { list-style-type: square; margin-bottom: 5px; line-height: 18px; color: var(dark); }

@@ -1,0 +1,44 @@
+.cssClass {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.cssClass .entry {
+    margin-bottom: 0;
+}
+.cssClass h2 a {
+    color: var(dark);
+}
+.cssClass h2 a:hover {
+    color: var(dark);
+}
+
+.cssClass .webStandardButton {
+    float: right;
+    margin-top: 11px;
+}
+
+.cssClass .bottomLine {
+    border-bottom: 2px solid var(dark);
+}
+
+.cssClass .teaser p {
+    min-height: 60px;
+}
+
+.cssClass p.readMoreLink {
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.cssClass p.readMoreLink a {
+    color: var(mainColor);
+    padding: 5px;
+    -moz-box-shadow:  1px 1px 1px var(dark), -1px -1px 1px var(dark);
+    -webkit-box-shadow: 1px 1px 1px var(dark), -1px -1px 1px var(dark);
+    box-shadow: 1px 1px 1px var(dark), -1px -1px 1px var(dark);
+    background: var(dark);
+}
+.cssClass p.readMoreLink a:hover {
+    color: var(light);
+}

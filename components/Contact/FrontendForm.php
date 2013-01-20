@@ -9,7 +9,7 @@ class Contact_FrontendForm extends Kwf_Form
             $host = Kwf_Registry::get('config')->server->domain;
         }
 
-        $row->addTo('office@vivid-planet.com');
+        $row->addTo('mi.freudenthaler@gmail.com');
         $row->setFrom($row->email);
         $row->subject = trl('Anfrage auf {0}',$host);
     }
@@ -18,27 +18,13 @@ class Contact_FrontendForm extends Kwf_Form
     {
         $this->setModel(new Kwf_Model_Mail(array('tpl' => 'Contact')));
 
-        $this->add(new Kwf_Form_Field_TextField('firstname', trlKwfStatic('Firstname')))
-            ->setWidth(255)
-            ->setAllowBlank(false);
-        $this->add(new Kwf_Form_Field_TextField('lastname', trlKwfStatic('Lastname')))
-            ->setWidth(255)
-            ->setAllowBlank(false);
-        $this->add(new Kwf_Form_Field_TextField('organisation', trlKwfStatic('Organisation')))
-            ->setWidth(255);
-        $this->add(new Kwf_Form_Field_TextField('street', trlKwfStatic('Street')))
-            ->setWidth(255);
-        $this->add(new Kwf_Form_Field_TextField('city', trlKwfStatic('ZIP / City')))
-            ->setWidth(255);
         $this->add(new Kwf_Form_Field_TextField('email', trlKwfStatic('E-Mail')))
             ->setWidth(255)
             ->setVtype('email')
             ->setAllowBlank(false);
-        $this->add(new Kwf_Form_Field_TextField('phone', trlKwfStatic('Phone')))
-            ->setWidth(255);
         $this->add(new Kwf_Form_Field_TextArea('content', trlKwfStatic('Message')))
             ->setWidth(255)
-            ->setHeight(120)
+            ->setHeight(85)
             ->setAllowBlank(false);
         parent::_init();
     }

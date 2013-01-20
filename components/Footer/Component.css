@@ -1,0 +1,16 @@
+.cssClass.webStandard {
+    color: var(light);
+}
+
+.cssClass .social,
+.cssClass .imp {
+    width: 200px;
+    float: left;
+}
+.cssClass .contact {
+    width: 500px;
+    float: left;
+}
+.cssClass.webStandard h2 {
+    color: var(mainColor);
+}

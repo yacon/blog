@@ -1,0 +1,15 @@
+.cssClass {
+     margin-left: 0px;
+     padding: 30px;
+}
+
+.cssClass .infoContainer .kwcParagraphs {
+    margin-left: 0;
+}
+
+.cssClass .webStandardButton.back {
+    margin-top: 13px;
+}
+.cssClass .closeButton {
+    background: none;
+}
