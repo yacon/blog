@@ -13,4 +13,5 @@
             &lt;mi.freudenthaler@gmail.com&gt;
         </p>
     </div>
+    <div class="clear"></div>
 </div>
