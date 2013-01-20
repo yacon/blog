@@ -6,9 +6,9 @@
     <div class="social">
         <h2>follow me</h2>
         <div class="socialLinks">
-            <?=$this->link($this->facebookLink, $this->image('/assets/web/images/facebook.png'))?>
-            <?=$this->link($this->googlePlusLink, $this->image('/assets/web/images/googlePlus.png'))?>
-            <?=$this->link($this->twitterLink, $this->image('/assets/web/images/twitter.png'))?>
+            <?=$this->link($this->facebookLink, $this->image('/assets/web/images/facebook.png'), array('target' => '_blank'))?>
+            <?=$this->link($this->googlePlusLink, $this->image('/assets/web/images/googlePlus.png'), array('target' => '_blank'))?>
+            <?=$this->link($this->twitterLink, $this->image('/assets/web/images/twitter.png'), array('target' => '_blank'))?>
         </div>
     </div>
     <div class="imp"><h2>impressum</h2>
