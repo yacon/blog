@@ -8,6 +8,10 @@
     width: 200px;
     float: left;
 }
+.cssClass .social .socialLinks a {
+    display: inline-block;
+    margin-left: 10px;
+}
 .cssClass .contact {
     width: 500px;
     float: left;
