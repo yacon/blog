@@ -10,6 +10,14 @@
 .cssClass .webStandardButton.back {
     margin-top: 13px;
 }
+.cssClass .webStandardButton.back a {
+    background: var(dark);
+    color: var(mainColor);
+    padding: 5px;
+}
+.cssClass .webStandardButton.back a:hover {
+    color: var(light);
+}
 .cssClass .closeButton {
     background: none;
 }
