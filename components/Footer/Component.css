@@ -3,10 +3,15 @@
     margin-bottom: 20px;
 }
 
-.cssClass .social,
-.cssClass .imp {
+.cssClass .social {
     width: 200px;
     float: left;
+    text-align: center;
+}
+.cssClass .imp {
+    width: 200px;
+    float: right;
+    text-align: right;
 }
 .cssClass .social .socialLinks a {
     display: inline-block;
@@ -18,4 +23,5 @@
 }
 .cssClass.webStandard h2 {
     color: var(mainColor);
+    padding: 0;
 }

@@ -2,7 +2,15 @@
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
+.cssClass .prevImage {
+    margin-right: 10px;
+}
+.cssClass.kwcNewsListView .entry .teaser {
+    padding: 0;
+}
+.cssClass .info {
+    float: left;
+}
 .cssClass .entry {
     margin-bottom: 0;
 }
