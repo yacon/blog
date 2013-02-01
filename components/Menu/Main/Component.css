@@ -16,10 +16,15 @@
     display: inline-block;
     font-weight: bold;
     text-align: left;
+    text-decoration: none;
     color: var(dark);
 }
 .cssClass ul li.current a,
 .cssClass ul li a:hover {
     color: var(light);
     background: var(dark);
+    text-decoration: none;
+}
+.cssClass ul li a:link {
+    text-decoration: none;
 }
