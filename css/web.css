@@ -1,7 +1,7 @@
 body.ext-ie6 { text-align: center; }
 
 body.frontend {
-    background: var(dark);
+    background: var(mainColor);
 }
 
 #page #outerHeader,
@@ -13,6 +13,10 @@ body.frontend {
 #page #outerHeader #header,
 #page #outerContent #content,
 #page #outerFooter #footer { width: 990px; margin: 0px auto; text-align: left; }
+
+#page #outerFooter {
+    border-top: 2px solid #333;
+}
 
 #page #outerHeader #header {
     padding-top: 20px;
@@ -31,6 +35,3 @@ body.frontend {
     width: 300px;
 }
 
-#page #outerFooter {
-    background: var(dark);
-}

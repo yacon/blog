@@ -27,11 +27,6 @@
                     <div class="clear"></div>
                 </div>
             </div>
-            <div id="outerFooter">
-                <div id="footer">
-                    <?=$this->component($this->boxes['footer']);?>
-                </div>
-            </div>
         </div>
         <?=$this->statisticCode();?>
     </body>

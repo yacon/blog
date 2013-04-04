@@ -6,9 +6,4 @@
     <div class="infoContainer">
        <?=$this->component($this->content);?>
     </div>
-    <? if ($this->placeholder['backLink']) { ?>
-        <div class="webStandardButton back">
-            <?=$this->componentLink($this->data->parent, $this->placeholder['backLink'], array('cssClass' => 'closeButton'))?>
-        </div>
-    <? } ?>
 </div>

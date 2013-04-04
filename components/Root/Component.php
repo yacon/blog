@@ -7,7 +7,6 @@ class Root_Component extends Kwc_Root_Component
 
         $ret['generators']['box']['component']['mainMenu'] = 'Menu_Main_Component';
         $ret['generators']['box']['component']['metaTags'] = 'Kwc_Box_MetaTagsContent_Component';
-        $ret['generators']['box']['component']['footer'] = 'Footer_Component';
         $ret['generators']['box']['component']['analytics'] = 'GoogleAnalytics_Component';
         $ret['generators']['title']['component'] = 'Kwc_Box_TitleEditable_Component';
 

@@ -1,5 +1,8 @@
+.cssClass {
+    padding-top: 20px;
+}
+
 .cssClass.webStandard {
-    color: var(light);
     margin-bottom: 20px;
 }
 
@@ -22,6 +25,9 @@
     float: left;
 }
 .cssClass.webStandard h2 {
-    color: var(mainColor);
+    color: var(light);
+    padding: 5px;
+    background: var(dark);
+    display: inline-block;
     padding: 0;
 }
