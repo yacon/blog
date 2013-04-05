@@ -10,9 +10,6 @@ class News_List_View_Component extends Kwc_News_List_View_Component
 	public function getTemplateVars()
     {
         $ret = parent::getTemplateVars();
-        $s = new Kwf_Component_Select();
-        $s->whereGenerator('detail');
-        $ret['detailPages'] = $this->getData()->parent->getChildPages($s);
         return $ret;
     }
 }

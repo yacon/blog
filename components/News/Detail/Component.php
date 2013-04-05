@@ -1,12 +1,11 @@
 <?php
-class News_Detail_Component extends Kwc_News_Detail_Component
+class News_Detail_Component extends Kwc_NewsCategory_Detail_Component
 {
     public static function getSettings()
     {
         $ret = parent::getSettings();
         $ret['cssClass'] = 'webStandard';
-        $ret['placeholder']['permalink'] = trlKwfStatic('Permalink');
-//         $ret['extConfig'] = 'Kwf_Component_Abstract_ExtConfig_None';
+        $ret['placeholder']['backLink'] = false;
         return $ret;
     }
 }

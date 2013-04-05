@@ -2,7 +2,14 @@
      margin-left: 0px;
      padding: 30px;
 }
-
+.cssClass h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: var(light);
+    background: var(dark);
+    padding: 5px;
+    display: inline-block;
+}
 .cssClass .infoContainer .kwcParagraphs {
     margin-left: 0;
 }
