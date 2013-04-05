@@ -1,5 +1,5 @@
 <?php
-class News_Directory_Component extends Kwc_News_Directory_Component
+class News_Directory_Component extends Kwc_NewsCategory_Component
 {
     public static function getSettings()
     {
