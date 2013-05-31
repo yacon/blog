@@ -5,6 +5,7 @@
         <?=$this->component($this->boxes['metaTags']);?>
         <?=$this->assets('Frontend');?>
         <?=$this->component($this->boxes['analytics']);?>
+        <?=$this->component($this->boxes['rssFeeds']);?>
         <?=$this->debugData();?>
         <link rel="shortcut icon" href="/assets/web/images/favicon.ico" />
     </head>

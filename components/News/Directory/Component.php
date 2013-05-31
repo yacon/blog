@@ -19,6 +19,13 @@ class News_Directory_Component extends Kwc_NewsCategory_Component
                 )
             ),
         );
+        $ret['generators']['categories'] = array(
+            'class' => 'Kwf_Component_Generator_PseudoPage_Static',
+            'component' => 'News_Category_Directory_Component',
+            'name' => trlKwf('Categories'),
+            'showInMenu' => false
+        );
+        $ret['generators']['feed']['component'] = 'News_List_Feed_Component';
         return $ret;
     }
 }
