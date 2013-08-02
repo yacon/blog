@@ -5,13 +5,16 @@ class Root_Component extends Kwc_Root_Component
     {
         $ret = parent::getSettings();
 
-        $ret['generators']['box']['component']['mainMenu'] = 'Menu_Main_Component';
         $ret['generators']['box']['component']['metaTags'] = 'Kwc_Box_MetaTagsContent_Component';
-        $ret['generators']['box']['component']['analytics'] = 'GoogleAnalytics_Component';
         $ret['generators']['box']['component']['rssFeeds'] = 'Kwc_Box_RssFeeds_Component';
         $ret['generators']['title']['component'] = 'Kwc_Box_TitleEditable_Component';
 
         $ret['editComponents'] = array('title', 'metaTags');
+        
+        $ret['generators']['home'] = array(
+            'class' => 'Kwf_Component_Generator_Page_Static',
+            'component' => 'Home_Component'
+        );
 
         $ret['contentWidth'] = 990;
         return $ret;

@@ -5,24 +5,7 @@
     </head>
     <body class="<?=$this->cssClass?>">
         <div id="page">
-            <div id="outerHeader">
-                <div id="header">
-                    <div class="logo">
-                        <?=$this->link('/', $this->image('/assets/web/images/logo.png'))?>
-                    </div>
-                    <div id="mainMenu">
-                        <?=$this->component($this->boxes['mainMenu']);?>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-            </div>
-            <div id="outerContent">
-                <div id="content">
-                        <?=$this->component($this->data);?>
-                    <div class="clear"></div>
-                </div>
-            </div>
+            <?=$this->component($this->data);?>
         </div>
-        <?=$this->includeCode('footer')?>
     </body>
 </html>

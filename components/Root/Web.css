@@ -4,23 +4,6 @@
 
 .webStandard p { line-height: 18px; color: var(typo); margin-bottom: 10px; }
 
-.webStandard h1 {
-    font-size: 25px;
-    margin-bottom: 10px;
-    color: var(light);
-    background: var(dark);
-    padding: 5px;
-    display: inline-block;
-
-}
-.webStandard h2
-{
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: var(dark);
-    display: inline-block;
-}
-
 .webStandard a { text-decoration: none; color: var(link); outline: none; }
 .webStandard a:hover { text-decoration: none; color: var(link); }
 .webStandard a:link { text-decoration: none; color: ar(link) }
@@ -31,39 +14,3 @@
 
 
 body.ext-ie6 { text-align: center; }
-
-body.frontend {
-    background: var(mainColor);
-}
-
-#page #outerHeader,
-#page #outerContent,
-#page #outerFooter {
-    background: var(mainColor);
-}
-
-#page #outerHeader #header,
-#page #outerContent #content,
-#page #outerFooter #footer { width: 990px; margin: 0px auto; text-align: left; }
-
-#page #outerFooter {
-    border-top: 2px solid #333;
-}
-
-#page #outerHeader #header {
-    padding-top: 20px;
-}
-
-#page #outerContent {
-    padding-bottom: 20px;
-}
-
-#page #outerHeader {
-    padding-bottom: 20px;
-}
-
-#header .logo {
-    float: left;
-    width: 300px;
-}
-
