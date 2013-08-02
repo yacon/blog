@@ -1,0 +1,54 @@
+.cssClass {
+    h1 {
+        font-size: 60px;
+    }
+
+    #image {
+        background: var(flatGreen);
+
+        .nav {
+            width: 50px;
+            height: 50px;
+            background: var(flatDark);
+        }
+        .image {
+            margin-top: 5%;
+            width: 100%;
+            height: 400px;
+            background: var(flatWhite);
+        }
+    }
+    #me {
+        background: var(flatYellow);
+        color: var(flatDark);
+        font-size: 40px;
+    }
+    #webDevelopment {
+        background: var(flatWhite);
+        color: var(flatDark);
+    }
+    #vividPlanet {
+        background: var(flatBlue);
+        color: var(flatWhite);
+    }
+    #contact {
+        background: var(flatRed);
+        color: var(flatWhite);
+    }
+
+    .wrapper {
+        padding: 5%;
+    }
+    .iconMe {
+        width: 200px;
+        height: 200px;
+        background: var(flatWhite);
+    }
+    .keyword {
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .keyword.first {
+        margin-left: 0;
+    }
+}
