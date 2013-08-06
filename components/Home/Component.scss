@@ -1,6 +1,10 @@
+@import "susy";
+@import "compass/utilities/general/clearfix";
+
 .cssClass {
+    font-size: 12px;
     h1 {
-        font-size: 60px;
+        font-size: 16px;
     }
 
     #image {
@@ -21,7 +25,6 @@
     #me {
         background: var(flatYellow);
         color: var(flatDark);
-        font-size: 40px;
     }
     #webDevelopment {
         background: var(flatWhite);
@@ -50,5 +53,50 @@
     }
     .keyword.first {
         margin-left: 0;
+    }
+}
+@media (min-width: 480px) {
+    .cssClass {
+        h1 {
+            font-size: 20px;
+        }
+
+        font-size: 16px;
+    }
+}
+@media (min-width: 600px) {
+    .cssClass {
+        h1 {
+            font-size: 30px;
+        }
+        
+        font-size: 22px;
+    }
+}
+@media (min-width: 768px) {
+    .cssClass {
+        h1 {
+            font-size: 40px;
+        }
+        
+        font-size: 28px;
+    }
+}
+@media (min-width: 992px) {
+    .cssClass {
+        h1 {
+            font-size: 60px;
+        }
+        
+        font-size: 32px;
+    }
+}
+@media (min-width: 1382px) {
+    .cssClass {
+        h1 {
+            font-size: 80px;
+        }
+        
+        font-size: 45px;
     }
 }
