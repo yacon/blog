@@ -43,8 +43,8 @@
         padding: 5%;
     }
     .iconMe {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         background: var(flatWhite);
     }
     .keyword {
@@ -60,6 +60,10 @@
         h1 {
             font-size: 20px;
         }
+        .iconMe {
+            width: 180px;
+            height: 180px;
+        }
 
         font-size: 16px;
     }
@@ -68,6 +72,10 @@
     .cssClass {
         h1 {
             font-size: 30px;
+        }
+        .iconMe {
+            width: 200px;
+            height: 200px;
         }
         
         font-size: 22px;
