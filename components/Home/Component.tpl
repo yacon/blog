@@ -1,6 +1,12 @@
 <div class="<?=$this->cssClass?>">
     <div id="image" class="wrapper">
-        <div class="nav"></div>
+        <div class="yaconMe left">
+            <h1>yacon.me</h1>
+        </div>
+        <div class="nav right">
+            <a href="/blog">blog.me</a>
+        </div>
+        <div class="clear"></div>
         <div class="image">image</div>
     </div>
     <div id="me" class="wrapper">
