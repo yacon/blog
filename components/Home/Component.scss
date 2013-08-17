@@ -53,6 +53,12 @@
     #contact {
         background: var(flatRed);
         color: var(flatWhite);
+        a {
+            color: var(flatWhite);
+        }
+        a:hover {
+            color: var(flatBlue);
+        }
     }
 
     .wrapper {
