@@ -1,13 +1,14 @@
 @import "susy";
 @import "compass/utilities/general/clearfix";
 
-.cssClass {
+.cssClass.webStandard {
     font-size: 16px;
     h1 {
         font-size: 20px;
     }
 
     #image {
+        margin: auto;
         background: var(flatGreen);
 
         .yaconMe {
@@ -39,18 +40,22 @@
         }
     }
     #me {
+        margin: auto;
         background: var(flatYellow);
         color: var(flatDark);
     }
     #webDevelopment {
+        margin: auto;
         background: var(flatWhite);
         color: var(flatDark);
     }
     #vividPlanet {
+        margin: auto;
         background: var(flatBlue);
         color: var(flatWhite);
     }
     #contact {
+        margin: auto;
         background: var(flatRed);
         color: var(flatWhite);
         a {
@@ -78,7 +83,7 @@
     }
 }
 @media (min-width: 480px) {
-    .cssClass {
+    .cssClass.webStandard {
         h1 {
             font-size: 24px;
         }
@@ -91,7 +96,7 @@
     }
 }
 @media (min-width: 600px) {
-    .cssClass {
+    .cssClass.webStandard {
         h1 {
             font-size: 30px;
         }
@@ -108,7 +113,7 @@
     }
 }
 @media (min-width: 768px) {
-    .cssClass {
+    .cssClass.webStandard {
         h1 {
             font-size: 40px;
         }
@@ -120,7 +125,7 @@
     }
 }
 @media (min-width: 992px) {
-    .cssClass {
+    .cssClass.webStandard {
         h1 {
             font-size: 60px;
         }
@@ -133,11 +138,17 @@
     }
 }
 @media (min-width: 1382px) {
-    .cssClass {
+    .cssClass.webStandard {
         h1 {
             font-size: 80px;
         }
-        
         font-size: 45px;
+        .wrapper {
+        padding: 50px;
+    }
+        .innerContent {
+            width: 1282px;
+            margin: auto;
+        }
     }
 }
