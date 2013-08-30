@@ -7,6 +7,7 @@ class Blog_Component extends Kwc_Abstract_Composite_Component
         $ret['componentName'] = 'blog';
         $ret['cssClass'] = 'webStandard';
         $ret['generators']['child']['component']['blog'] = 'Blog_Directory_Component';
+        $ret['flags']['resetMaster'] = true;
         return $ret;
     }
 }

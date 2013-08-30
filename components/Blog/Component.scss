@@ -1,9 +1,10 @@
 @import "susy";
 @import "compass/utilities/general/clearfix";
 
-.cssClass.webStandard {
+.blogContent.webStandard {
+    margin: auto;
     font-size: 14px;
-    padding: 5%;
+    padding: 1%;
     h1 {
         margin-top: 5%;
         font-size: 20px;
@@ -31,7 +32,7 @@
         }
     }
     .separator {
-        border-bottom: 3px solid var(flatGray);
+        border-bottom: 3px solid var(flatBlue);
     }
     .yaconMe {
         h1 {
@@ -60,17 +61,47 @@
     .categories {
         font-size: 14px;
     }
-    .readMoreLink a {
-        background: var(flatGray);
+    button {
+        background: var(flatBlue);
         color: var(flatWhite);
+        padding: 5%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 18px;
+        border: none;
+        font-family: Raleway;
+    }
+    .kwcForm input,
+    .kwcForm textarea,
+    .kwcForm select {
+        border: none;
+        color: var(flatBlue);
+        font-size: 20px;
         padding: 2%;
+    }
+    .kwcPostsDetail.kwcBlogCommentsDetail {
+        background: var(flatYellow);
+        border: none;
+        border-top: 2px solid var(flatBlue);
+        padding: 1%;
+        .text {
+            background: var(flatYellow);
+        }
+    }
+    .readMoreLink a,
+    .backLink a {
+        background: var(flatBlue);
+        color: var(flatWhite);
+        padding: 1%;
         display: inline-block;
         margin-top: 2%;
         margin-bottom: 2%;
         font-size: 18px;
+
     }
-    .readMoreLink a:hover {
-        background: var(flatLightGray);
+    .readMoreLink a:hover,
+    .backLink a:hover {
+        color: var(flatWhite);
     }
 }
 @media (min-width: 480px) {
@@ -79,18 +110,13 @@
 
 }
 @media (min-width: 600px) {
-    .cssClass {
+    .blogContent {
+        width: 700px;
     }
 }
 @media (min-width: 768px) {
-    .cssClass {
-
-    }
 }
 @media (min-width: 992px) {
-    .cssClass {
-        width: 950px;
-    }
 }
 @media (min-width: 1382px) {
     .cssClass {
