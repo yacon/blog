@@ -8,7 +8,7 @@
                 <a href="/blog">blog.me</a>
             </div>
             <div class="clear"></div>
-            <div class="image">image</div>
+            <div class="image"></div>
         </div>
     </div>
     <div id="me" class="wrapper">
