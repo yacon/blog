@@ -1,5 +1,6 @@
 <div class="<?=$this->cssClass?>">
-    <div id="image" class="wrapper">
+    <div id="image" class="wrapper imageWrapper">
+        <div class="grassBg"></div>
         <div class="innerContent">
             <div class="yaconMe left">
                 <h1>yacon.me</h1>
@@ -25,7 +26,7 @@
                 <div class="clear"></div>
             </div>
             <div class="right">
-                <div class="iconMe"></div>
+                <div class="icon iconMe"></div>
             </div>
             <div class="clear"></div>
         </div>
@@ -44,7 +45,7 @@
                 <div class="clear"></div>
             </div>
             <div class="right">
-                <div class="iconMe"></div>
+                <div class="icon iconWeb"></div>
             </div>
             <div class="clear"></div>
         </div>
@@ -63,7 +64,7 @@
                 <div class="clear"></div>
             </div>
             <div class="right">
-                <div class="iconMe"></div>
+                <div class="icon iconVP"></div>
             </div>
             <div class="clear"></div>
         </div>
@@ -81,7 +82,7 @@
                 <div class="clear"></div>
             </div>
             <div class="right">
-                <div class="iconMe"></div>
+                <div class="icon iconContact"></div>
             </div>
             <div class="clear"></div>
         </div>
