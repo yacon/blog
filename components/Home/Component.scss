@@ -146,6 +146,55 @@
                 margin-top: 5%;
                 width: 550px;
                 height: 400px;
+
+                .jedi {
+                    width: 41px;
+                    height: 110px;
+                    background: url("/assets/web/images/jediOnly.png");
+                    position: absolute;
+                }
+                .terminal {
+                    width: 36px;
+                    height: 69px;
+                    background: url("/assets/web/images/terminal1.png");
+                    position: absolute;
+                }
+                .duck {
+                    width: 40px;
+                    height: 33px;
+                    background: url("/assets/web/images/duck1.png");
+                    position: absolute;
+                }
+                .post {
+                    width: 32px;
+                    height: 74px;
+                    background: url("/assets/web/images/post1.png");
+                    position: absolute;
+                }
+                .trees {
+                    width: 335px;
+                    height: 345px;
+                    background: url("/assets/web/images/trees.png");
+                    position: absolute;
+                }
+                .cloud1 {
+                    width: 278px;
+                    height: 45px;
+                    background: url("/assets/web/images/cloud1.png");
+                    position: absolute;
+                }
+                .cloud2 {
+                    width: 407px;
+                    height: 74px;
+                    background: url("/assets/web/images/cloud2.png");
+                    position: absolute;
+                }
+                .cloud3 {
+                    width: 153px;
+                    height: 38px;
+                    background: url("/assets/web/images/cloud3.png");
+                    position: absolute;
+                }
             }
             .grassBg {
                 display: block;
@@ -182,6 +231,46 @@
                 width: 954px;
                 height: 634px;
             }
+                .trees {
+                    width: 335px;
+                    height: 345px;
+                    margin-top: 136px;
+                    margin-left: 521px;
+                }
+                .cloud1 {
+                    
+                }
+                .cloud2 {
+                    margin-left: 407px;
+                }
+                .cloud3 {
+                    margin-left: 250px;
+                    margin-top: 60px;
+                }
+                .jedi {
+                    width: 41px;
+                    height: 110px;
+                    margin-top: 393px;
+                    margin-left: 477px;
+                }
+                .terminal {
+                    width: 36px;
+                    height: 69px;
+                    margin-top: 425px;
+                    margin-left: 395px;
+                }
+                .duck {
+                    width: 40px;
+                    height: 33px;
+                    margin-top: 525px;
+                    margin-left: 580px;
+                }
+                .post {
+                    width: 32px;
+                    height: 74px;
+                    margin-top: 420px;
+                    margin-left: 630px;
+                }
             .grassBg {
                 height: 232px;
             }

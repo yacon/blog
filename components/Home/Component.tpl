@@ -9,7 +9,16 @@
                 <a href="/blog">blog.me</a>
             </div>
             <div class="clear"></div>
-            <div class="image"></div>
+            <div class="image">
+            <div class="cloud1"></div>
+            <div class="cloud2"></div>
+            <div class="cloud3"></div>
+            <div class="trees"></div>
+                <div class="jedi"></div>
+                <div class="terminal"></div>
+                <div class="post"></div>
+                <div class="duck"></div>
+            </div>
         </div>
     </div>
     <div id="me" class="wrapper">
