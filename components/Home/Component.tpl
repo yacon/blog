@@ -10,14 +10,14 @@
             </div>
             <div class="clear"></div>
             <div class="image">
-            <div class="cloud1"></div>
-            <div class="cloud2"></div>
-            <div class="cloud3"></div>
-            <div class="trees"></div>
-                <div class="jedi"></div>
-                <div class="terminal"></div>
-                <div class="post"></div>
-                <div class="duck"></div>
+                <div class="cloud1"></div>
+                <div class="cloud2"></div>
+                <div class="cloud3"></div>
+                <div class="trees"></div>
+                <a href="#me"><div class="jedi"></div></a>
+                <a class="terminalLink" href="#webDevelopment"><div class="terminal"></div></a>
+                <a class="postLink" href="#contact"><div class="post"></div></a>
+                <a class="duckLink" href="#vividPlanet"><div class="duck"></div></a>
             </div>
         </div>
     </div>
