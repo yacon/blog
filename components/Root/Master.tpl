@@ -6,7 +6,13 @@
     </head>
     <body class="<?=$this->cssClass?>">
         <div id="page">
-            <?=$this->component($this->data);?>
+            <div id="outerHeader"></div>
+            <div id="outerContent">
+                <div id="content">
+                    <?=$this->component($this->data);?>
+                </div>
+            </div>
+            <div id="outerFooter"></div>
         </div>
     </body>
 </html>

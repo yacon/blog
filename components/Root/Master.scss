@@ -1,1 +1,20 @@
-/* move styling relevant for Master.tpl from Web.css in here*/
+.cssClass {
+    #page {
+        #outerContent {
+            #content {
+                width: 800px;
+                margin: auto;
+            }
+        }
+        #outerHeader {
+            margin-bottom: 20px;
+            background: var(mainColor);
+            height: 10px;
+        }
+        #outerFooter {
+            background: var(mainColor);
+            height: 10px;
+            margin-top: 50px;
+        }
+    }
+}

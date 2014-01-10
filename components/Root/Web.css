@@ -1,19 +1,23 @@
-.webStandard { font-family: Raleway, sans-serif, Arial Helvetica, Verdana, Geneva; font-size: 14px; color: var(typo); }
+.webStandard { font-family: Raleway, sans-serif, Arial Helvetica, Verdana, Geneva; font-size: 14px; color: var(mainColor); }
 .webStandard strong { font-weight: bold; }
 .webStandard em { font-style: italic; }
 
-.webStandard p { line-height: 18px; color: var(typo); margin-bottom: 10px; }
+.webStandard p { line-height: 18px; color: var(mainColor); margin-bottom: 10px; }
 
-.webStandard a { text-decoration: none; color: var(flatLink); outline: none; }
-.webStandard a:hover { text-decoration: none; color: var(flatLink); }
-.webStandard a:link { text-decoration: none; color: ar(flatLink) }
+.webStandard a { text-decoration: none; color: var(mainColor); outline: none; }
+.webStandard a:hover { text-decoration: none; color: var(secColor); }
+.webStandard a:link { text-decoration: none; color: ar(mainColor) }
 
 .webStandard ol,
 .webStandard ul { margin-bottom: 10px; margin-left: 20px; }
 .webStandard li { list-style-type: square; margin-bottom: 5px; line-height: 18px; color: var(dark); }
 
+.webStandard h1 {
+    font-size: 48px;
+}
+.webStandard h2 {
+    font-size: 32px;
+}
+
 
 body.ext-ie6 { text-align: center; }
-body.frontend {
-    background: var(flatYellow);
-}
