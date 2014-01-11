@@ -62,8 +62,8 @@
         font-size: 14px;
     }
     button {
-        background: var(flatBlue);
-        color: var(flatWhite);
+        background: var(mainColor);
+        color: var(light);
         padding: 5%;
         margin-top: 2%;
         margin-bottom: 2%;
@@ -75,18 +75,14 @@
     .kwcForm textarea,
     .kwcForm select {
         border: none;
-        color: var(flatBlue);
         font-size: 20px;
         padding: 2%;
+        color: var(light);
+        background: var(mainColor);
     }
     .kwcPostsDetail.kwcBlogCommentsDetail {
-        background: var(flatYellow);
         border: none;
-        border-top: 2px solid var(flatBlue);
         padding: 1%;
-        .text {
-            background: var(flatYellow);
-        }
     }
     .readMoreLink a,
     .backLink a {
@@ -98,10 +94,6 @@
         margin-bottom: 2%;
         font-size: 18px;
 
-    }
-    .readMoreLink a:hover,
-    .backLink a:hover {
-        color: var(flatWhite);
     }
 }
 @media (min-width: 480px) {
