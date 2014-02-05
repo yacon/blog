@@ -23,7 +23,7 @@
             ITS - information Technology & System Management
         </p>
         <ul>
-            <li>degree expected in 2017 ;-)</li>
+            <li>degree expected in 2016 ;-)</li>
             <li>informatics</li>
             <li>networking and protocols</li>
             <li>systems and signal theory</li>
