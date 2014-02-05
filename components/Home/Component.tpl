@@ -1,5 +1,5 @@
 <div class="<?=$this->cssClass?>">
-    <h1>michael freudenthaler</h1>
+    <h1 class="myName">michael freudenthaler</h1>
     <div class="classyImage">
         <?=$this->image('/assets/web/images/classyImage.png')?>
     </div>

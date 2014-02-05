@@ -1,4 +1,6 @@
 .cssClass {
+    background: var(mainColor);
+
     #page {
         #outerContent {
             #content {
@@ -8,11 +10,11 @@
         }
         #outerHeader {
             margin-bottom: 20px;
-            background: var(mainColor);
+            background: var(thirdColor);
             height: 10px;
         }
         #outerFooter {
-            background: var(mainColor);
+            background: var(thirdColor);
             height: 10px;
             margin-top: 50px;
         }

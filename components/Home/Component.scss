@@ -2,8 +2,9 @@
 @import "compass/utilities/general/clearfix";
 .cssClass {
     @include pie-clearfix;
-    h1 {
+    h1.myName {
         margin-bottom: 20px;
+        color: var(light);
     }
     
     .classyImage {
@@ -19,23 +20,23 @@
         width: 300px;
         height: 300px;
         padding: 25px;
-        background: var(mainColor);
-        color: var(light);
+        background: var(light);
+        color: var(typo);
         float: left;
         
         p {
-            color: var(light);
+            color: var(typo);
             font-size: 18px;
             margin-bottom: 15px;
         }
         a {
-            color: var(light);
+            color: var(typo);
             font-size: 32px;
             display: block;
             margin-bottom: 15px;
         }
         ul li {
-            color: var(light);
+            color: var(typo);
             font-size: 16px;
         }
         &.education,
