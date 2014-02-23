@@ -40,7 +40,7 @@
     </div>
     <div class="box projects">
         <h2>projects</h2>
-        <?=$this->link('http://mapster.yacon.me', 'mapster', array('cssClass' => 'mapsterLink', 'target' => 'blank'))?>
+        <?=$this->link('http://map-ster.com', 'mapster', array('cssClass' => 'mapsterLink', 'target' => 'blank'))?>
         <?=$this->link('http://www.yacon.me', 'yacon.me', array('cssClass' => 'yaconLink', 'target' => 'blank'))?>
         <?=$this->link('http://www.tmk-stveit.at', 'tmk st. veit', array('cssClass' => 'tmkLink', 'target' => 'blank'))?>
         <p>my last personal projects</p>
