@@ -3,6 +3,19 @@
     <div class="classyImage">
         <?=$this->image('/assets/web/images/classyImage.png')?>
     </div>
+    <div class="classyQuote">
+        <div class="quoteImage left">
+            <?=$this->image('/assets/web/images/quote.png')?> 
+        </div>
+        <div class="quote left">
+            I'm Batman
+        </div>
+        <div class="clear"></div>
+        <div class="quoteAuthor right">
+            - Batman
+        </div>
+        <div class="clear"></div>
+    </div>
     <div class="box work">
         <h2>work</h2>
         <?=$this->link('http://www.vivid-planet.com', 'vivid planet', array('target' => 'blank'))?>
