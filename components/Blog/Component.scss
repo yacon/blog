@@ -18,6 +18,14 @@
         font-size: 14px;
         margin-top: 1%;
     }
+    
+    .blogHeader {
+        padding-left: 10px;
+        padding-right: 10px;
+        background: var(mainColor);
+        color: var(light);
+    }
+    
     .showHoverIcon.kwcBasicImageEnlarge a .outerHoverIcon {
         display: none;
     }
@@ -36,21 +44,18 @@
     }
     .yaconMe {
         h1 {
-            font-family: Pacifico;
             font-size: 42px;
             font-weight: normal;
             margin-top: 0;
+            line-height: 74px;
         }
     }
     .nav {
-        height: 74px;
-        margin-top: 7px;
+        line-height: 74px;
         a {
+            color: var(light);
             font-size: 32px;
             line-height: 74px;
-        }
-        a:hover {
-            color: var(flatGreen);
         }
     }
     .postInfo {
