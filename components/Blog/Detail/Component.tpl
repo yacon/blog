@@ -17,7 +17,8 @@
                     echo $this->componentLink($nc, null, array('skipAppendText'=>true));
                 } ?>
             <? } ?>
-            <?=$this->data->trlKwf('by {0}', $this->item->author)?>
+            by <a href="https://plus.google.com/+MichaelFreudenthaler?rel=author"><?=$this->item->author?></a>
+            
         </div>
         <? if ($this->placeholder['backLink']) { ?>
             <div class="backLink">
