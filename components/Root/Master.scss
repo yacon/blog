@@ -1,22 +1,10 @@
+html,
+body,
+#page,
+#outerContent,
+#content {
+    height: 100%;
+}
 .cssClass {
-    background: var(mainColor);
-
-    #page {
-        #outerContent {
-            #content {
-                width: 800px;
-                margin: auto;
-            }
-        }
-        #outerHeader {
-            margin-bottom: 20px;
-            background: var(thirdColor);
-            height: 10px;
-        }
-        #outerFooter {
-            background: var(thirdColor);
-            height: 10px;
-            margin-top: 50px;
-        }
-    }
+    background: var(secColor);
 }

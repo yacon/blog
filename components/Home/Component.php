@@ -8,4 +8,12 @@ class Home_Component extends Kwc_Abstract_Composite_Component
         $ret['cssClass'] = 'webStandard';
         return $ret;
     }
+
+    public function getTemplateVars()
+    {
+        $ret = parent::getTemplateVars();
+        $ret['blog'] = Kwf_Component_Data_Root::getInstance()
+            ->getComponentByClass('Blog_Component');
+        return $ret;
+    }
 }

@@ -1,97 +1,61 @@
-@import "susy";
-@import "compass/utilities/general/clearfix";
 .cssClass {
-    @include pie-clearfix;
-    h1.myName {
-        margin-bottom: 20px;
-        color: var(light);
-    }
-    
-    .classyImage {
-        width: 500px;
-        height: 500px;
-        margin: auto;
-        margin-bottom: 40px;
-        border: 10px solid var(light);
-        border-radius: 50%;
-        overflow: hidden;
-    }
-    .classyQuote {
-        margin-left: 200px;
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-    .quote {
-        margin-left: 50px;
-        color: var(light);
-        font-size: 40px;
-    }
-    .quoteAuthor {
-        color: var(light);
-        font-size: 20px;
-        margin-right: 300px;
-    }
-    .box {
-        width: 300px;
-        height: 300px;
-        padding: 25px;
-        background: var(light);
-        color: var(typo);
-        float: left;
-        
-        p {
-            color: var(typo);
-            font-size: 18px;
-            margin-bottom: 15px;
+    height: 100%;
+    font-size: 16px;
+
+    .aboutBg {
+        background: url("/assets/web/images/aboutBg.png");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        .aboutMask {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: var(mainColor);
+            opacity: 0.75;
         }
-        a {
-            color: var(typo);
-            font-size: 32px;
+        .aboutContent {
+            position: relative;
+            width: 600px;
+            margin: auto;
+            padding-top: 200px;
+
+            .aboutInfo {
+                margin-left: 50px;
+                line-height: 26px;
+            }
+        }
+        .linkDown {
+            position: absolute;
+            background: url("/assets/web/images/aboutDown.png");
+            bottom: 0;
+            width: 159px;
+            height: 80px;
             display: block;
-            margin-bottom: 15px;
+            margin-left: calc(unquote('50% - 80px'));
+
         }
-        ul li {
-            color: var(typo);
-            font-size: 16px;
-        }
-        &.education,
-        &.projects {
-            margin-left: 100px;
-        }
-        &.contact,
-        &.projects {
-            margin-top: 100px;
-        }
-        &.work {
-            h2 {
-                line-height: 48px;
-                background: url('/assets/web/images/iconWork.png') no-repeat left center;
-                text-indent: 68px;
-                margin-bottom: 15px;
-            }
-        }
-        &.education {
-            h2 {
-                line-height: 48px;
-                background: url('/assets/web/images/iconEducation.png') no-repeat left center;
-                text-indent: 68px;
-                margin-bottom: 15px;
-            }
-        }
-        &.contact {
-            h2 {
-                line-height: 48px;
-                background: url('/assets/web/images/iconContact.png') no-repeat left center;
-                text-indent: 68px;
-                margin-bottom: 15px;
-            }
-        }
-        &.projects {
-            h2 {
-                line-height: 48px;
-                background: url('/assets/web/images/iconProjects.png') no-repeat left center;
-                text-indent: 68px;
-                margin-bottom: 15px;
+        .blogLink {
+            text-align: center;
+            
+            a {
+                display: inline-block;
+                padding: 15px 60px;
+                border: 2px solid var(typo);
+                color: var(typo);
+                margin-top: 50px;
+                font-size: 20px;
+                font-weight: bold;
+                
+                &:hover {
+                    background: var(thirdColor);
+                    border: 2px solid var(thirdColor);
+                    color: var(mainColor);
+                }
             }
         }
     }

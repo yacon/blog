@@ -11,7 +11,6 @@ class Root_Component extends Kwc_Root_Component
 
         $ret['editComponents'] = array('title', 'metaTags');
 
-        $ret['contentWidth'] = 990;
         return $ret;
     }
 }
