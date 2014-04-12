@@ -11,7 +11,11 @@
                     <?=$this->component($this->data);?>
                 </div>
             </div>
-            <div id="outerFooter"></div>
+            <div id="outerFooter">
+                <div id="footer">
+                    <?=$this->component($this->boxes['footer']);?>
+                </div>
+            </div>
         </div>
     </body>
 </html>

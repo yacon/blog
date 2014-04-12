@@ -1,60 +1,60 @@
 .cssClass {
-    height: 100%;
     font-size: 16px;
 
-    .aboutBg {
-        background: url("/assets/web/images/aboutBg.png");
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-        position: relative;
-
-        .aboutMask {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
+    .topWrapper {
+        .aboutBg {
+            background: url("/assets/web/images/aboutBg.png");
+            background-size: cover;
             width: 100%;
-            background: var(mainColor);
-            opacity: 0.75;
-        }
-        .aboutContent {
             position: relative;
-            width: 600px;
-            margin: auto;
-            padding-top: 200px;
 
-            .aboutInfo {
-                margin-left: 50px;
-                line-height: 26px;
+            .aboutMask {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background: var(mainColor);
+                opacity: 0.75;
             }
-        }
-        .linkDown {
-            position: absolute;
-            background: url("/assets/web/images/aboutDown.png");
-            bottom: 0;
-            width: 159px;
-            height: 80px;
-            display: block;
-            margin-left: calc(unquote('50% - 80px'));
+            .aboutContent {
+                position: relative;
+                width: 600px;
+                margin: auto;
+                padding: 200px 0 200px 0;
 
-        }
-        .blogLink {
-            text-align: center;
-            
-            a {
-                display: inline-block;
-                padding: 15px 60px;
-                border: 2px solid var(typo);
-                color: var(typo);
-                margin-top: 50px;
-                font-size: 20px;
-                font-weight: bold;
+                .aboutInfo {
+                    margin-left: 50px;
+                    line-height: 26px;
+                }
+            }
+            .linkDown {
+                position: absolute;
+                background: url("/assets/web/images/aboutDown.png");
+                bottom: 0;
+                width: 159px;
+                height: 80px;
+                display: block;
+                margin-left: calc(unquote('50% - 80px'));
+
+            }
+            .blogLink {
+                text-align: center;
                 
-                &:hover {
-                    background: var(thirdColor);
-                    border: 2px solid var(thirdColor);
-                    color: var(mainColor);
+                a {
+                    display: inline-block;
+                    padding: 15px 60px;
+                    border: 2px solid var(typo);
+                    color: var(typo);
+                    margin-top: 50px;
+                    font-size: 20px;
+                    font-weight: bold;
+                    
+                    &:hover {
+                        background: var(thirdColor);
+                        border: 2px solid var(thirdColor);
+                        color: var(mainColor);
+                    }
                 }
             }
         }

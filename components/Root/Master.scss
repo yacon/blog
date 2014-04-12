@@ -1,10 +1,13 @@
-html,
-body,
-#page,
-#outerContent,
-#content {
-    height: 100%;
-}
 .cssClass {
     background: var(secColor);
+    
+    #outerFooter {
+        background: var(mainColor);
+
+        #footer {
+            padding: 50px 0 50px 0;
+            margin: auto;
+            width: 450px;
+        }
+    }
 }

@@ -1,0 +1,55 @@
+@import "compass/utilities/general/clearfix";
+.cssClass {
+    @include pie-clearfix;
+    padding: 40px 0 40px 0;
+    margin: auto;
+    width: 550px;
+
+    h2 {
+        margin-bottom: 50px;
+    }
+    .project {
+        position: relative;
+        width: 250px;
+        height: 120px;
+        float: left;
+        overflow: hidden;
+        cursor: pointer;
+
+        &.even {
+            margin-left: 50px;
+        }
+        &.secRow {
+            margin-top: 50px;
+        }
+        
+        &.mapster {
+            background: url("/assets/web/images/mapster.png") center center no-repeat var(mainColor);
+        }
+        &.koala {
+            background: url("/assets/web/images/koalaframework.png") center center no-repeat var(mainColor);
+        }
+        &.tmk {
+            background: url("/assets/web/images/koalaframework.png") center center no-repeat var(mainColor);
+        }
+        &.contestr {
+            background: url("/assets/web/images/koalaframework.png") center center no-repeat var(mainColor);
+        }
+        
+        .projectOverlay {
+            position: absolute;
+            background: var(mainColor);
+            width: 210px;
+            height: 80px;
+            opacity: 0;
+            -webkit-transition: all 0.3s; /* For Safari 3.1 to 6.0 */
+            transition: all 0.3s;
+            display: block;
+            color: var(typo);
+            padding: 20px;
+        }
+        &:hover .projectOverlay {
+            opacity: 0.9;
+        }
+    }
+}

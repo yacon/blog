@@ -6,6 +6,7 @@ class Home_Component extends Kwc_Abstract_Composite_Component
         $ret = parent::getSettings();
         $ret['componentName'] = 'Home';
         $ret['cssClass'] = 'webStandard';
+        $ret['generators']['child']['component']['projects'] = 'Home_Projects_Component';
         return $ret;
     }
 
