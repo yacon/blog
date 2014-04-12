@@ -26,8 +26,10 @@
             </div>
         <? } ?>
     </div>
-    <h1>Comments</h1>
-    <div class="comments">
-        <?=$this->component($this->comments)?>
-    </div>
+    <?if ($this->comments->hasContent()){?>
+        <h1>Comments</h1>
+        <div class="comments">
+            <?=$this->component($this->comments)?>
+        </div>
+    <?}?>
 </div>

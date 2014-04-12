@@ -6,19 +6,26 @@
     </head>
     <body class="<?=$this->cssClass?>">
         <div id="page">
-            <div class="blogContent webStandard">
-                <div class="blogHeader webStandard">
-                    <div class="yaconMe left">
-                        <h1>michael freudenthaler</h1>
+            <div id="outerHeader">
+                <div id="header" class="webStandard">
+                    <div class="headerLabel">
+                        <h2><span class="thirdColorText">m</span>ichael <span class="thirdColorText">f</span>reudenthaler</h2>
                     </div>
-                    <div class="nav right">
-                        <a href="/">about</a>
-                    </div>
-                    <div class="clear"></div>
+                    <?
+                    $home =  Kwf_Component_Data_Root::getInstance()
+                        ->getComponentByClass('Home_Component');
+                    ?>
+                    <div class="menu"><?=$this->componentLink($home, 'aboutMe')?></div>
                 </div>
-                <h1>my Blog</h1>
+            </div>
+            <div class="blogContent webStandard">
                 <div class="separator"></div>
                 <?=$this->component($this->data);?>
+            </div>
+            <div id="outerFooter">
+                <div id="footer">
+                    <?=$this->component($this->boxes['footer']);?>
+                </div>
             </div>
         </div>
     </body>

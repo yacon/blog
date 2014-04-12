@@ -10,4 +10,9 @@ class Blog_Component extends Kwc_Abstract_Composite_Component
         $ret['flags']['resetMaster'] = true;
         return $ret;
     }
+    public function getTemplateVars()
+    {
+        $ret = parent::getTemplateVars();
+        return $ret;
+    }
 }
