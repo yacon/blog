@@ -30,12 +30,16 @@
             }
             .linkDown {
                 position: absolute;
-                background: url("/assets/web/images/aboutDown.png");
+                background: url("/assets/web/images/aboutDown.png") 0 50px;
                 bottom: 0;
-                width: 159px;
-                height: 80px;
+                width: 100px;
+                height: 50px;
                 display: block;
                 margin-left: calc(unquote('50% - 80px'));
+                
+                &:hover {
+                    background: url("/assets/web/images/aboutDown.png") 0 0;
+                }
 
             }
             .blogLink {
