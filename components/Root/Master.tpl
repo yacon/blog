@@ -5,16 +5,10 @@
         <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     </head>
     <body class="<?=$this->cssClass?>">
-        <div id="page">
-            <div id="outerContent">
-                <div id="content">
-                    <?=$this->component($this->data);?>
-                </div>
-            </div>
-            <div id="outerFooter">
-                <div id="footer">
-                    <?=$this->component($this->boxes['footer']);?>
-                </div>
+        <?=$this->component($this->data);?>
+        <div id="outerFooter">
+            <div id="footer">
+                <?=$this->component($this->boxes['footer']);?>
             </div>
         </div>
     </body>

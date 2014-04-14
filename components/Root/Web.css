@@ -22,6 +22,12 @@
 .webStandard .thirdColorText {
     color: var(thirdColor);
 }
-
-
-body.ext-ie6 { text-align: center; }
+html,
+body,
+.topWrapper,
+.home {
+    height: 100%;
+}
+#content {
+    min-height: 100%;
+}
