@@ -2,7 +2,7 @@
     <h2>Projects</h2>
     <div class="project mapster odd">
         <a href="http://map-ster.com" target="_BLANK" class="projectOverlay">
-            <p>With mapster you can create and share your map with places you want to show others.</p>
+            <p>With mapster you can create your personal map and share it with others.</p>
         </a>
     </div>
     <div class="project koala even">
