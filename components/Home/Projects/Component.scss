@@ -1,12 +1,12 @@
 @import "compass/utilities/general/clearfix";
 .cssClass {
     @include pie-clearfix;
-    padding: 40px 0 40px 0;
+    padding: 100px 0;
     margin: auto;
     width: 550px;
 
     h2 {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     .project {
         position: relative;
