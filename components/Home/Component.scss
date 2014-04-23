@@ -52,6 +52,8 @@
                     margin-top: 50px;
                     font-size: 20px;
                     font-weight: bold;
+                    transition: background 0.25s;
+                    -webkit-transition: background 0.25s;
                     
                     &:hover {
                         background: var(thirdColor);
