@@ -31,3 +31,6 @@ body,
 #content {
     min-height: 100%;
 }
+.webStandard.kwc-paragraphs-preview {
+    background: var(secColor);
+}
