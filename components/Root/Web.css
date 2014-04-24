@@ -10,7 +10,7 @@
 
 .webStandard ol,
 .webStandard ul { margin-bottom: 10px; margin-left: 20px; }
-.webStandard li { list-style-type: square; margin-bottom: 5px; line-height: 18px; color: var(dark); }
+.webStandard li { list-style-type: square; margin-bottom: 5px; line-height: 18px; color: var(typo); }
 
 .webStandard h1 {
     font-size: 48px;
