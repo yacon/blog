@@ -3,6 +3,7 @@
     <head>
         <?=$this->includeCode('header')?>
         <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <meta name="google-site-verification" content="kgBidqKP_qCodu0ezks1ASOGggf7_uYzOeEShoa4LWs" />
     </head>
     <body class="<?=$this->cssClass?>">
         <?=$this->component($this->data);?>
