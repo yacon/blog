@@ -28,5 +28,6 @@
                 </div>
             </div>
         </div>
+        <?=$this->includeCode('footer')?>
     </body>
 </html>

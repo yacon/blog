@@ -12,5 +12,6 @@
                 <?=$this->component($this->boxes['footer']);?>
             </div>
         </div>
+        <?=$this->includeCode('footer')?>
     </body>
 </html>
