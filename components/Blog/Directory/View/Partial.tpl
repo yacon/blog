@@ -8,6 +8,11 @@
         <div class="content">
             <?=$this->component($this->content);?>
         </div>
+        <? if($this->hasContent($this->item) && $this->placeholder['readMore']) { ?>
+            <div class="readMoreLink">
+                <?=$this->componentLink($this->item, $this->placeholder['readMore']);?>
+            </div>
+        <? } ?>
         <div class="categories">
             <? if ($this->item->categories) { ?>
                 <?=$this->data->trlKwf('This entry was posted in');?>
