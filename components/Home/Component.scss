@@ -1,5 +1,8 @@
     .topWrapper {
         font-size: 16px;
+        &.webStandard h1 {
+            font-size: 40px;
+        }
         .aboutBg {
             background: url("/assets/web/images/homeBg.jpg");
             -webkit-background-size: cover;
@@ -20,9 +23,9 @@
                 opacity: 0.75;
             }
             .aboutContent {
-                width: 600px;
+                width: auto;
                 margin: auto;
-                padding: 200px 0;
+                padding: 100px 0;
                 position: relative;
 
                 .aboutInfo {
@@ -63,6 +66,24 @@
                         border: 2px solid var(thirdColor);
                         color: var(mainColor);
                     }
+                }
+            }
+        }
+        &.gt350 {
+            &.webStandard h1 {
+                font-size: 48px;
+            }
+            .aboutBg {
+                .aboutContent {
+                    padding: 150px 0;
+                }
+            }
+        }
+        &.gt600 {
+            .aboutBg {
+                .aboutContent {
+                    width: 600px;
+                    padding: 200px 0;
                 }
             }
         }

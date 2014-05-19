@@ -9,17 +9,29 @@
             @include pie-clearfix;
             padding: 20px 0 20px 0;
             margin: auto;
-            width: 700px;
+            width: auto;
             
             .headerLabel {
                 float: left;
+                display: none;
             }
             .menu {
                 float: right;
             }
         }
     }
-    
+    .blogContent {
+        width: 100%;
+        &.webStandard {
+            .kwcAdvancedCodeSyntaxHighlight {
+                background: #fff;
+                border: 2px solid var(mainColor);
+                color: var(dark);
+                padding: 10px;
+            }
+        }
+    }
+
     #outerFooter {
         background: var(mainColor);
 
@@ -27,6 +39,28 @@
             padding: 50px 0 50px 0;
             margin: auto;
             width: 450px;
+        }
+    }
+    .gt700 {
+        #outerHeader {
+            #header {
+                width: 700px;
+            }
+        }
+        .blogContent.webStandard {
+            width: 700px;
+        }
+    }
+    .gt420 {
+        #outerHeader {
+            #header {
+                .shortHeaderLabel {
+                    display: none;
+                }
+                .headerLabel {
+                    display: block;
+                }
+            }
         }
     }
 }

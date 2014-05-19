@@ -3,26 +3,21 @@
     @include pie-clearfix;
     padding: 100px 0;
     margin: auto;
-    width: 550px;
+    width: auto;
 
     h2 {
         margin-bottom: 30px;
     }
     .project {
         position: relative;
-        width: 250px;
+        width: 275px;
         height: 120px;
-        float: left;
+        float: auto;
         overflow: hidden;
         cursor: pointer;
+        margin: auto;
+        margin: 10px auto;
 
-        &.even {
-            margin-left: 50px;
-        }
-        &.secRow {
-            margin-top: 50px;
-        }
-        
         &.mapster {
             background: url("/assets/web/images/mapster.png") center center no-repeat var(mainColor);
         }
@@ -50,6 +45,21 @@
         }
         &:hover .projectOverlay {
             opacity: 0.9;
+        }
+    }
+}
+.projectsWrapper.gt600 {
+    .cssClass {
+        width: 600px;
+        .project {
+            margin-top: 0;
+            float: left;
+            &.even {
+                margin-left: 50px;
+            }
+            &.secRow {
+                margin-top: 50px;
+            }
         }
     }
 }

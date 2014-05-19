@@ -11,6 +11,9 @@
                     <div class="headerLabel">
                         <h2><span class="thirdColorText">m</span>ichael <span class="thirdColorText">f</span>reudenthaler</h2>
                     </div>
+                    <div class="shortHeaderLabel">
+                        <h2><span class="thirdColorText">m</span>f</h2>
+                    </div>
                     <?
                     $home =  Kwf_Component_Data_Root::getInstance()
                         ->getComponentByClass('Home_Component');
