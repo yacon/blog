@@ -31,6 +31,7 @@
                 </div>
             </div>
         </div>
+        <?=$this->component($this->boxes['analytics']);?>
         <?=$this->includeCode('footer')?>
     </body>
 </html>
