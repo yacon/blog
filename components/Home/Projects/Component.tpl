@@ -12,12 +12,12 @@
     </div>
     <div class="project tmk odd secRow">
         <a href="http://tmk-stveit.at" target="_BLANK" class="projectOverlay">
-            <p>Website for the local brass band I am a member of.<br />I also manage the facebook page.</p>
+            <p>Website for the local brass band I am a member of</p>
         </a>
     </div>
-    <div class="project contestr even secRow">
-        <a href="http://contestr.yacon.me" target="_BLANK" class="projectOverlay">
-            <p>Contestr is a tool to create and manage contests and lotteries.<br />Facebook Pages are also supported.</p>
+    <div class="project esta even secRow">
+        <a href="http://esta.yacon.me" target="_BLANK" class="projectOverlay">
+            <p><strong>esta</strong><br /> Launch your event and manage your guest list.</p>
         </a>
     </div>
 </div>
